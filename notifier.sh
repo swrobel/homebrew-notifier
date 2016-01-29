@@ -14,5 +14,5 @@ if [ -n "$updatable" ] && [ -e "$TERMINAL_NOTIFIER" ]; then
         -title "Homebrew Updates Available" \
         -subtitle "The following formulae are outdated:" \
         -message "$updatable" \
-        -sound default
+        -appIcon homebrew_icon.png
 fi
